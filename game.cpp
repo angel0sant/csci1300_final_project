@@ -1,4 +1,3 @@
-// --- Game.cpp ---
 #include "Game.h"
 #include <iostream>
 #include <fstream>
@@ -31,9 +30,9 @@ void Game::run() {
     int choice = 0;
 
     while (epochsLeft > 0 && playerPlanet.getEnergy() > 0) {
-        std::cout << "\n==================================================\n";
-        std::cout << "            THE FINAL BUNDLE: SPACE EPOCH         \n";
-        std::cout << "==================================================\n";
+        std::cout << "\n--------------------------------------------------\n";
+        std::cout << "                    SPACE EPOCH                   \n";
+        std::cout << "--------------------------------------------------\n";
         std::cout << "Epochs Remaining: " << epochsLeft << "\n";
         playerPlanet.displayStats();
         

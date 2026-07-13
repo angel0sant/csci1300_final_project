@@ -7,7 +7,7 @@ class Game {
 private:
     Planet playerPlanet;
     int epochsLeft;
-    std::string loadedEvents[10]; // Array to store events from file
+    std::string loadedEvents[10];
     int numEvents;
 public:
     Game();

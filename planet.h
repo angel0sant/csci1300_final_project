@@ -2,7 +2,6 @@
 #define PLANET_H
 #include "Entity.h"
 
-// Planet inherits from Entity
 class Planet : public Entity {
 private:
     int energy;
