@@ -1,0 +1,4 @@
+Solar_Flare -20
+Ice_Comet 15
+Asteroid_Strike -10
+Alien_Probe 5
